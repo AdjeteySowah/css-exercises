@@ -1,0 +1,6 @@
+.container .text {
+    background-color: rgb(255, 255, 0);
+    color: rgb(255, 0, 0);
+    font-size: 1.25rem;
+    text-align: center;
+}
