@@ -20,6 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .icon {
@@ -39,7 +45,7 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -48,6 +54,25 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.header-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left-items {
+  display: flex;
+  gap: 16px;
+}
+
+.text, .lower-buttons {
+  margin-left: 58px;
+}
+
+.text {
+  margin-top: -12px;
+  margin-bottom: 16px;
 }
 
 button {
